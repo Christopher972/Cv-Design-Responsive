@@ -53,8 +53,7 @@ h2
  position:relative;
  text-align: center;
  border: 1px solid silver ;
- background:silver;
- 
+ background:silver; 
 }
 
 li
@@ -131,14 +130,14 @@ li
     display:flex;
     flex-direction: column;
     align-items:center;
-    justify-content:center;
-     
+    justify-content:center;     
 }
 
 .loisirs .li-wrap .text
 {
     margin-top:5px;
 }
+
 .loisirs .li-wrap .icon,
 .loisirs .li-wrap .text
 {
@@ -149,6 +148,7 @@ li
 {
     background: silver;
 }
+
 .loisirs .li-wrap:hover .icon,
 .loisirs .li-wrap:hover .text
 {
@@ -176,11 +176,16 @@ font-weight:700;
 color:#003366;
 padding-top:30px;
 }
-h3
+
+.role
 {
-    font-size:20px;
-    font-weight:300;
+    font-size: 20px;
+    font-weight: 300;
     color:#003366;
+    text-align: left;
+    border: none ;
+    background:none;
+    text-transform:none;    
 }
 
 
@@ -195,21 +200,20 @@ h3
 {
     padding-bottom:30px;
 }
+
 .conteneur-right .li-wrap
 {
     display:flex;
-    margin-bottom: 15px;
-   
-   
+    margin-bottom: 15px;  
 }
 
 .conteneur-right .li-wrap .date
 {
     width:125px;
     color:#003366;
-    text-align:center;
-    
+    text-align:center;   
 }
+
 .conteneur-right .li-wrap .info
 {
     width:calc(100% - 125px);
@@ -221,8 +225,8 @@ h3
 {
     font-weight:700;
     color: #003366;  
-
 }
+
 .conteneur-right .li-wrap .info-cont
 {
     margin-top : 10px;
@@ -239,6 +243,7 @@ h3
     background:#003366;
     border-radius:50%;
 }
+
 .conteneur-right .li-wrap .info :after
 {
     content:"";
@@ -254,8 +259,7 @@ h3
 .recommandation .li-wrap .icon
 {
     display: flex;
-    width:20px;
-   
+    width:20px;  
 }
 
 /*Page web en Responsive */
@@ -280,6 +284,7 @@ h3
       height:auto;
       width:100%;
   }
+  
   .right
   {
       margin:0;
@@ -297,6 +302,7 @@ h3
   {
    padding:5px;
   }
+  
   .image-mobile img
   {
    display:block;
@@ -310,14 +316,17 @@ h3
   {
    height:auto;
   }
+  
   h1
   {
    padding-top:0;
   }
-  h3
+  
+  .role
   {
    padding-bottom:50px;
   }
+  
   .conteneur-right
   {
     padding:0;
@@ -325,11 +334,13 @@ h3
     background:silver;
     border:1px solid #003366;
   }
+  
   .conteneur-right h2
   {
    background:#003366;
    margin:15px;
   }
+  
   .form-wrap ul,
   .exp-wrap ul
   {
