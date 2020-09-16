@@ -113,7 +113,6 @@ li
 }
 
 /*Mise en forme Contact*/
- 
   .contact ul
 {
   margin:15px;
@@ -205,21 +204,18 @@ li
  color:#003366;
 }
 
- .title-icon 
+ .title-icon
 {
-  font-size:24px;
-  font-weight:700;
-  text-transform:uppercase;
+  font-size:22px;
   color:black;
   text-align: left;
   border: none;
   background: none;
-  position:relative;
   display:inline-block;
   width:100%;
 }
 
- .right .title-icon :after
+ .title-icon:after
 {
   content:"";
   background-color:#003366;
@@ -289,7 +285,6 @@ li
 }
 
 /*Mise en forme Recommandation */
-
 #recommandation .li-wrap .icon
 {
   display: flex;

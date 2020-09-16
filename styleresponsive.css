@@ -1,6 +1,4 @@
-
 /*Page web en Responsive */
-
  @media screen and (max-width:800px)
    
 {
@@ -23,35 +21,35 @@
   
  .right
 {
-  margin:7px;
-  padding:40px 0px;
+  margin:5px;
+  padding:47px 7px;
   height:auto;
   width:100%;    
 }
   
-  header
- {
+ header
+{
   display:flex;
   flex-flow:column wrap;
   width:100%;
   margin:0;
   background:silver;
- }
+}
  
-  main
- {
-   width:100%;
-   display:flex;
-   flex-flow:wrap-reverse;
-   align-items:center;
-   justify-content:center;
-   background:silver;
+ main
+{
+  width:100%;
+  display:flex;
+  flex-flow:wrap-reverse;
+  align-items:center;
+  justify-content:center;
+  background:silver;
    
- }
+}
   
-  .form-wrap ul,
-  .exp-wrap ul
- {
-    padding:0;
- }
- }
+ .form-wrap ul,
+ .exp-wrap ul
+{
+  padding:0;
+}
+}
