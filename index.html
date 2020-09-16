@@ -5,26 +5,34 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
         <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-           <link rel="stylesheet" href="style.css" />
+           <link rel="stylesheet" href="styledesktop.css"/>
+           <link rel="stylesheet" href="styleresponsive.css"/>
     </head>
     <body>
-        <div class="conteneur">
-            <div class="left"><!--Partie Gauche-->
-                <header>
-                    <div class="image">
+        <div id="conteneur">
+            <header> <!-- L'En-Tête du Cv-->
+                <div class="left"> <!--Partie Gauche, Photo de Profil-->
+                    <figure> 
                         <img src="christopher-lee.jpg" alt="photo de christopher-lee">
-                    </div>
-                </header>
-                <aside>
-                    <article>
-                        <div class="contact-wrap ">
+                    </figure>
+                </div>
+                <div class="right"> <!--Partie Droite Identité et Domaine d'activité-->
+                    <h1>Christopher-Lee <span>Contout</span><br/></h1>  
+                        <p class="role"> Développeur web freelance</p>
+                        <hr class="role-hr">      
+                </div>
+            </header>
+            <main> <!-- Corps du Cv-->
+                <div class="left">
+                    <div id="contact-wrap">
+                        <article>  <!--Mes coordonnées-->
                             <h2>CONTACT</h2>
-                            <div class="contact">
+                            <aside class="contact">
                                 <ul>
                                     <li>
                                         <div class="li-wrap">
                                             <div class="icon">
-                                               <i class="fas fa-map-signs"></i>
+                                                <i class="fas fa-map-signs"></i>
                                             </div>
                                             <div class="text">Paris, France</div>
                                         </div>
@@ -32,7 +40,7 @@
                                     <li>
                                         <div class="li-wrap">
                                             <div class="icon">
-                                               <i class="fas fa-mobile-alt"></i>
+                                                <i class="fas fa-mobile-alt"></i>
                                             </div>
                                             <div class="text">06 15 11 43 87</div>
                                         </div>
@@ -40,36 +48,36 @@
                                     <li>
                                         <div class="li-wrap">
                                             <div class="icon">
-                                              <i class="fas fa-envelope"></i>
+                                                <i class="fas fa-envelope"></i>
                                             </div>
                                             <div class="text">contout.christopher@hotmail.fr</div>
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
-                    </article>
-                    <article>
-                        <div class="profil-wrap ">
+                            </aside>
+                        </article>
+                    </div>
+                    <div id="profil-wrap">
+                        <article> <!-- Ma description-->
                             <h2>PROFIL</h2> 
-                            <div class="profil">
+                            <aside class="profil">
                                 <p>
-                                   Ma réussite professionnelle étant mon objectif principal, je souhaite acquérir de l'expérience dans divers domaines tels que le développement web et d'applications.
-                                   Je suis capable de travailler en autonomie ou en équipe dans un environnement dynamique et exigeant.
-                                   Passionné par le développement informatique, je souhaite en faire mon métier. Une forte motivation, de la méthode et de la rigueur sont des aptitudes indispensables pour un travail de qualité. 
+                                    Ma réussite professionnelle étant mon objectif principal, je souhaite acquérir de l'expérience dans divers domaines tels que le développement web et d'applications.
+                                    Je suis capable de travailler en autonomie ou en équipe dans un environnement dynamique et exigeant.
+                                    Passionné par le développement informatique, je souhaite en faire mon métier. Une forte motivation, de la méthode et de la rigueur sont des aptitudes indispensables pour un travail de qualité. 
                                 </p>
-                            </div>    
-                        </div>
-                    </article>
-                    <article>
-                        <div class="compétences-wrap">
+                            </aside>    
+                        </article>
+                    </div>
+                    <div id="compétences-wrap">
+                        <article> <!--Mes qualités informatiques-->
                             <h2>COMPETENCES</h2>
-                            <div class="compétences">
+                            <aside class="compétences">
                                 <ul>
                                     <li>
                                         <div class="li-wrap">
                                             <div class="icon">
-                                               <i class="fab fa-html5"></i>
+                                                <i class="fab fa-html5"></i>
                                             </div>
                                             <div class="text">HTML5</div>
                                         </div>
@@ -77,24 +85,24 @@
                                     <li>
                                         <div class="li-wrap">
                                             <div class="icon">
-                                               <i class="fab fa-css3-alt"></i>
+                                                <i class="fab fa-css3-alt"></i>
                                             </div>
                                             <div class="text">CSS3</div>
                                         </div>
                                     </li>
                                 </ul>
-                            </div>    
-                        </div>
-                    </article>
-                    <article>
-                        <div class="loisirs-wrap">
+                            </aside>    
+                        </article>
+                    </div>
+                    <div class="loisirs-wrap">
+                        <article> <!--Mes loisirs-->
                             <h2>LOISIRS</h2>
-                            <div class="loisirs">
+                            <aside class="loisirs">
                                 <ul>
                                     <li>
                                         <div class="li-wrap">
                                             <div class="icon">
-                                               <i class="fas fa-swimmer"></i>
+                                                <i class="fas fa-swimmer"></i>
                                             </div>
                                             <div class="text">Natation</div>
                                         </div>
@@ -102,87 +110,76 @@
                                     <li>
                                         <div class="li-wrap">
                                             <div class="icon">
-                                               <i class="fas fa-chess"></i>
+                                                <i class="fas fa-chess"></i>
                                             </div>
                                             <div class="text">Les échecs</div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="li-wrap">
-                                            <div class="icon">
-                                               <i class="fas fa-music"></i>
-                                            </div>
-                                            <div class="text">Musique</div>
+                                                <div class="icon">
+                                                    <i class="fas fa-music"></i>
+                                                </div>
+                                                <div class="text">Musique</div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="li-wrap">
                                             <div class="icon">
-                                               <i class="fas fa-dumbbell"></i>
+                                                <i class="fas fa-dumbbell"></i>
                                             </div>
                                             <div class="text">Crossfit</div>
                                         </div>
                                     </li>
                                 </ul>
-                            </div>       
-                        </div>
-                    </article>
-                </aside>
-            </div>
-            <div class="right"><!-- Partie Droite-->
-                <header>
-                    <div class="header"><!-- Structure Affichage Responsive-->
-                        <div class="image-mobile">
-                            <img src="christopher-lee.jpg" alt="photo de christopher-lee">
-                        </div>
-                        <h1>Christopher-Lee Contout</h1>
-                        <h2 class= "role">Développeur web freelance</h2>
+                            </aside>       
+                        </article>
                     </div>
-                </header>
-                <div class="conteneur-right">
-                    <article>
-                        <h2>FORMATION</h2>
+                </div>
+                <div class="right"> <!--Partie Droite du Cv-->
+                    <article>  <!--Mon parcours scolaire-->
+                        <h2 class="title-icon"><i class="fas fa-graduation-cap icon-right"></i> FORMATION </h2>   
                         <div class="form-wrap">
                             <ul>
                                 <li>
                                     <div class="li-wrap">
-                                        <div class="date">2020</div>
-                                        <div class="info">
-                                            <p class="info-title">Openclassrooms, Paris, France</p>
-                                            <p class="info-cont">Développeur web junior</p>
-                                        </div>
+                                        <div class="date"><i class="fas fa-dot-circle point"></i>2020<br/><span class="lieu">Paris </span></div>
+                                        <section class="info">
+                                            <h3>Openclassrooms</h3>
+                                                <p class="info-cont">Développeur web junior</p>
+                                        </section>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="li-wrap">
-                                        <div class="date">2013-2014</div>
-                                        <div class="info">
-                                            <p class="info-title">Féderation Européenne des écoles, Paris, France</p>
+                                        <div class="date"><i class="far fa-dot-circle point"></i>2013-2014<br/><span class="lieu">Paris </span></div> 
+                                        <section class="info">
+                                            <h3>Féderation Européenne des écoles</h3>
                                             <p class="info-cont">Diplôme Européen d'Etudes Supérieures en Marketing</p>
-                                        </div>
+                                        </section>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="li-wrap">
-                                        <div class="date">2008-2012</div>
-                                        <div class="info">
-                                            <p class="info-title">Université du Maine Science Economique de gestion, Le Mans, France</p>
+                                        <div class="date"><i class="far fa-dot-circle point"></i>2008-2012<br/><span class="lieu">Le Mans</span></div>
+                                        <section class="info">
+                                            <h3>Université du Maine Science Economique de gestion</h3>
                                             <p class="info-cont">Diplôme d'études universitaires génerales Economie et Gestion</p>
-                                        </div>
+                                        </section>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                     </article>
-                    <article>
-                        <h2>EXPERIENCE PROFESSIONELLE</h2> 
+                    <article> <!--Mes différentes experiences-->
+                        <h2 class="title-icon"> <i class="fas fa-briefcase icon-right"></i> EXPERIENCE PROFESSIONELLE</h2> 
                         <div class="exp-wrap">
                             <ul>
                                 <li>
                                     <div class="li-wrap">
-                                    <div class="date">2014-2020</div>
-                                        <div class="info">
-                                            <p class="info-title">Développeur Front-End, Le Saint-Charles, Paris</p>
+                                        <div class="date"><i class="fas fa-dot-circle point"></i>2014-2020<br/><span class="lieu">Paris</span></div>      
+                                        <section class="info">
+                                            <h3>Développeur Front-End, Le Saint-Charles</h3>
                                             <p class="info-cont">Refonte d'un site internet.
                                                 Développement front-end du site internet.
                                                 Elaboration de l'idendité visuelle (Adobe Photoshop).
@@ -190,25 +187,26 @@
                                                 Concevoir le design et la strucuture du site web.
                                                 Evaluer le résultat final de chaque projet et conseiller des modifications si nécessaire.
                                             </p>
-                                        </div>
+                                        </section>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="li-wrap">
-                                        <div class="date">2012</div>
-                                        <div class="info">
-                                            <p class="info-title">Stage de développeur Front-End, Areas Assurance, Le Mans</p>
+                                        <div class="date"><i class="far fa-dot-circle point"></i>2012<br/><span class="lieu">Le Mans</span></div>
+                                        <section class="info">
+                                            <h3>Stage de développeur Front-End, Areas Assurance</h3>
                                             <p class="info-cont">Création d'un site vitrine.<br/>
-                                                Développement Front: HTML ET CSS3.</p>
-                                        </div>
+                                                Développement Front: HTML ET CSS3.
+                                            </p>
+                                        </section>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                     </article>
-                    <article>
-                        <h2>RECOMMANDATION</h2>
-                        <div class="recommandation">
+                    <footer> <!--Pied de Page et les coordonnées de mon chef de projet-->
+                        <h2 class="title-icon"> <i class="fas fa-pencil-alt icon-right"></i> RECOMMANDATION</h2>
+                        <div id="recommandation">
                             <ul>
                                 <li>
                                     <div class="li-wrap">
@@ -244,9 +242,9 @@
                                 </li>
                             </ul>
                         </div>
-                    </article>    
+                    </footer>  
                 </div>
-            </div>
-        </div> 
+            </main>
+        </div>
     </body>
 </html>
