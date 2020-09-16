@@ -1,0 +1,297 @@
+/* Général */
+ body
+{
+  padding: 0;
+  margin: 0;
+  font-family:'Source sans Pro',Calibri,sans-cerif;
+}
+
+ #conteneur
+{
+  width: 800px;
+  margin:50px auto;
+  font-size:16px;
+  border: 1px solid black;
+}
+
+ header,main
+{
+  display:flex;
+}
+
+ ul
+{
+  padding:10px;
+}
+
+li
+{
+  list-style-type: none;
+}
+
+/* Format Partie Gauche */
+ .left
+{
+  background: #003366;
+  width: 280px;
+  color:white;
+}
+
+  .left .icon
+{
+  font-size: 30px;
+  color:#003366;
+}
+
+/* Format Partie Droite */
+ .right 
+{
+  width: 520px;
+  padding:35px;
+  color:#003366;
+}
+
+/* L'En-Tête */
+/*Photo de profil*/
+ figure
+{
+  text-align:center;
+  padding:35px 0px;
+  margin:6px;
+}
+
+ .left figure img
+{
+  width:150px;
+  border-radius:200px;
+}
+
+/*Identité et Domaine d'activité*/
+
+ h1 
+{
+  font-size: 40px;
+  font-weight:700;
+  margin:0;
+}    
+ 
+ h1 span
+{
+  color:black;
+}
+
+ .role
+{
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  color:black;
+  margin:0;
+}
+
+ .role-hr
+{
+  margin:0px;
+  width:12%;
+  height:2px;
+  border:none;
+  background:#003366; 
+}
+
+/*Corps du Cv patie Gauche*/
+/* Mise en forme des Titres*/
+ h2
+{
+  font-size:24px;
+  font-weight:700;
+  text-transform:uppercase;
+  position:relative;
+  text-align: center;
+  border: 1px solid silver ;
+  background:silver;
+  margin-top:2px;
+}
+
+/*Mise en forme Contact*/
+ 
+  .contact ul
+{
+  margin:15px;
+}
+
+ .contact .li-wrap
+{
+  display: flex;
+  align-items:center;
+  width: 100%;
+  margin-bottom:20px ;
+}
+
+ .contact .li-wrap .icon
+{
+  width: 40px;   
+  height:50px ;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;  
+}
+
+ .contact .li-wrap .text
+{
+  margin-left: 10px;
+  width:80px;
+  font-size: 13px;
+}
+   
+ /*Mise en forme Profil*/
+ .profil 
+{
+  text-align:left;
+  margin:19px;
+}
+ 
+/*Mise en forme Compétences et Loisirs */
+ .compétences ul,
+ .loisirs ul
+{
+  display :flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  padding:0;
+  padding-top:15px;
+  margin:25px;
+}
+
+ .compétences .li-wrap,
+ .loisirs .li-wrap
+{
+  width: 100px;
+  height:100px;
+  margin-bottom:15px;
+  border-radius:15px;
+  background:silver;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;     
+}
+
+ .loisirs .li-wrap .text,
+ .loisirs .li-wrap .icon
+{
+  margin-top:5px;
+  color:white;
+}
+
+ .loisirs .li-wrap :hover
+{
+  background: silver;
+}
+
+ .loisirs .li-wrap:hover .icon,
+ .loisirs .li-wrap:hover .text
+{
+  color:#003366;
+}
+
+/*Corp du Cv partie droite*/
+/*Général */
+ .icon-right
+{
+ width:40px;
+ vertical-align:middle;
+ color:#003366;
+}
+
+ .title-icon 
+{
+  font-size:24px;
+  font-weight:700;
+  text-transform:uppercase;
+  color:black;
+  text-align: left;
+  border: none;
+  background: none;
+  position:relative;
+  display:inline-block;
+  width:100%;
+}
+
+ .right .title-icon :after
+{
+  content:"";
+  background-color:#003366;
+  position:absolute;
+  display:block;
+  height:2px;
+  width:100%;
+  margin-top:10px;
+}
+
+ .right .li-wrap .info :before
+{
+  content:"";
+  position:absolute;
+  top:3px;
+  left:0;
+  width:10px;
+  height:10px;
+  background:#003366;
+  border-radius:50%;
+}
+
+ .right .li-wrap .info :after
+{
+  content:"";
+  position:absolute;
+  top: 10px;
+  left: 4px;
+  width:2px;
+  height: 40px;
+  background:#003366;  
+}
+
+/*Mise en forme Formation et expérience*/
+ .right .form-wrap
+{
+  padding-bottom:30px;
+}
+
+ .right .li-wrap
+{
+  display:flex;
+  margin-bottom: 15px;  
+}
+
+.right .li-wrap .date
+{
+  width:150px;
+}
+
+.lieu
+{
+  margin:28px;
+}
+ 
+ .point
+{
+  width:20%;
+  padding-top:5px;
+}
+
+ .right .li-wrap .info
+{
+  width:calc(100% - 150px);
+  padding-left:25px;
+  position:relative;
+}
+
+/*Mise en forme Recommandation */
+
+#recommandation .li-wrap .icon
+{
+  display: flex;
+  width:20px; 
+}

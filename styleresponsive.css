@@ -1,0 +1,57 @@
+
+/*Page web en Responsive */
+
+ @media screen and (max-width:800px)
+   
+{
+ #conteneur
+{
+  display:flex;
+  flex-flow:column wrap;
+  width:100%;
+  margin:auto;
+  border:none;
+}
+
+ .left
+{
+  margin:0;
+  padding:0;
+  height:auto;
+  width:100%;
+}
+  
+ .right
+{
+  margin:7px;
+  padding:40px 0px;
+  height:auto;
+  width:100%;    
+}
+  
+  header
+ {
+  display:flex;
+  flex-flow:column wrap;
+  width:100%;
+  margin:0;
+  background:silver;
+ }
+ 
+  main
+ {
+   width:100%;
+   display:flex;
+   flex-flow:wrap-reverse;
+   align-items:center;
+   justify-content:center;
+   background:silver;
+   
+ }
+  
+  .form-wrap ul,
+  .exp-wrap ul
+ {
+    padding:0;
+ }
+ }
