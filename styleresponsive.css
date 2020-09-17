@@ -1,6 +1,7 @@
 /*Page web en Responsive */
  @media screen and (max-width:800px)
-   
+  
+/*Général */
 {
  #conteneur
 {
@@ -21,12 +22,13 @@
   
  .right
 {
-  margin:5px;
-  padding:47px 2px;
+  margin: 0px;
+  padding:47px 0px;
   height:auto;
   width:100%;    
 }
-  
+ 
+/*L'En-Tête du Cv */  
  header
 {
   display:flex;
@@ -36,6 +38,18 @@
   background:silver;
 }
  
+ .role
+ {
+  line-height:0
+ }
+ 
+ .role-hr
+ {
+  margin:7px;
+  width:15%;
+ }
+ 
+ /*Corps du Cv */
  main
 {
   width:100%;
@@ -43,13 +57,17 @@
   flex-flow:wrap-reverse;
   align-items:center;
   justify-content:center;
-  background:silver;
-   
+  background:silver;  
 }
-  
+ 
  .form-wrap ul,
  .exp-wrap ul
 {
   padding:0;
 }
+
+ article,footer,h1,.role
+{
+  padding:7px;
+} 
 }
