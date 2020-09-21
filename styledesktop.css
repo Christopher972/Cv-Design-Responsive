@@ -250,11 +250,6 @@ li
 }
 
 /*Mise en forme Formation et expérience*/
- .right .form-wrap
-{
-  padding-bottom:30px;
-}
-
  .right .li-wrap
 {
   display:flex;
