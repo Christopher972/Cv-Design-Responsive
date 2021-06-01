@@ -274,7 +274,7 @@ li
 
 a
 {
- color: white;
+ color: white !important;
 }
 
  .contact .li-wrap .icon
